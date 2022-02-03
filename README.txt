@@ -22,7 +22,7 @@ MATLAB files:
 - move_peaks.m: function that moves the base points of Lorentz functions closer together.
 - NNLS.m: function that solves an NNLS problem with an exact block-coordinate descent scheme. Copyright: Nicolas Gillis, Université de Mons.
 - NNLS_FPGM.m: function that solves an NNLS problem with a fast gradient method. Copyright: Nicolas Gillis, Université de Mons.
-- NNLS_init: function that initializes the NNLS_FPGM solver. Copyright: Nicolas Gillis, Université de Mons.
+- NNLS_init.m: function that initializes the NNLS_FPGM solver. Copyright: Nicolas Gillis, Université de Mons.
 - plot_mask.m: function that visualizes a selection of freqencies. 
 - plot_results.m: function that plots selected results of the numerical experiment on the effects of increasing interference.
 - raman_analysis.m: function that performs the analysis of a synthetic data set of time-resolved Raman spectral data.
