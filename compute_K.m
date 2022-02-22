@@ -8,7 +8,7 @@ function K = compute_K(H,tspan)
 [r,n] = size(H);
 
 % Set up matrix \tilde{\mathcal{H}}. Exclude the variables k_{ss} and the
-% columns belonging to it. Insert the vectors −H(i,:)'.
+% columns belonging to it. Insert the vectors −\hat{H}(i,:)'.
 C = spalloc(r*(n-1),r*(r-1),2*r*(r-1)*(n-1));
 for i = 1:r
     row_range = (i-1)*(n-1)+1:i*(n-1);
